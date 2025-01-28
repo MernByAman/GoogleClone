@@ -32,8 +32,8 @@ Crafted with ❤️ by [Aman Awasthi](https://github.com/devAmanAwasthi)
 ---
 
 **📸 Preview**  
-![Google Clone Screenshot](![google-clone-ss](https://github.com/user-attachments/assets/87ffaf27-09f9-4b31-b2aa-76c6d906d6b6)
-)  
+![google-clone-ss](https://github.com/user-attachments/assets/ea1473d7-4d51-4673-8643-44a132f5f56a)
+
 
 *Perfect for web development portfolios, CSS framework demonstrations, or learning modern web design patterns!*  
 
