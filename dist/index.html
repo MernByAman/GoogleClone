@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.google.com/favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex justify-between items-center py-4 px-4">
+      <ul class="flex space-x-6 text-sm">
+        <li class="cursor-pointer hover:underline">
+          <a href="https://about.google/" target="_blank">About</a>
+        </li>
+        <li class="cursor-pointer hover:underline pr-4">
+          <a
+            href="https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN"
+            target="_blank"
+            >Store</a
+          >
+        </li>
+      </ul>
+
+      <ul class="flex space-x-6 text-sm items-center">
+        <li class="cursor-pointer hover:underline">
+          <a href="https://mail.google.com/mail/&ogbl" target="_blank">Gmail</a>
+        </li>
+        <li class="cursor-pointer hover:underline">
+          <a href="https://www.google.com/imghp?hl=en&ogbl " target="_blank"
+            >Images</a
+          >
+        </li>
+        <li class="">
+          <a href="https://labs.google.com/search?source=hp" target="_blank"
+            ><img
+              src="media\searchlabs.png"
+              alt="Search Labs"
+              class="w-5 cursor-pointer pointer-events-none"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.google.co.in/intl/en/about/products"
+            ><img
+              src="media\dots-menu.png"
+              alt="Menu"
+              class="w-4 cursor-pointer pointer-events-none"
+          /></a>
+        </li>
+        <li
+          class="cursor-pointer hover:drop-shadow-xl ease-out duration-500 hover:scale-125"
+        >
+          <a href="https://github.com/MernByAman" target="_blank"
+            ><img
+              src="media\profile-pic.png"
+              alt="Profile"
+              class="w-8 rounded-full pointer-events-none hover:ease-out duration-500 hover: drop-shadow-md cursor-pointer"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="mt-48 grid place-items-center">
+        <img
+          src="media/googlelogo.png"
+          alt="Google"
+          class="w-auto py-8 pointer-events-none"
+        />
+      </div>
+      <div class="flex justify-center">
+        <div class="relative w-[580px]">
+          <input
+            type="text"
+            id="search"
+            placeholder=""
+            class="w-full shadow-lg rounded-full h-12 placeholder:text-center border border-gray-200 pl-12 pr-4 py-2 focus:outline-none focus:shadow-md transition-all"
+          />
+          <img
+            src="media/search.png"
+            alt="Search"
+            class="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"
+          />
+          <img
+            src="media\google-voice-search.svg"
+            alt="VoiceSearch"
+            class="h-8 w-auto absolute right-16 bottom-2 pointer-events-none cursor-pointer"
+          />
+          <img
+            src="media\google-lens.png"
+            alt="ImageSearch"
+            class="w-auto h-8 right-6 absolute bottom-2 pointer-events-none cursor-pointer"
+          />
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="py-2 px-3 bg-gray-100 rounded-md mx-1 my-8 text-sm hover:shadow-md"
+        >
+          Google Search
+        </button>
+        <button
+          class="py-2 px-3 bg-gray-100 rounded-md mx-1 my-8 text-sm hover:shadow-md"
+        >
+          <a href="https://doodles.google/" target="_blank"
+            >I'm Feeling Lucky</a
+          >
+        </button>
+      </div>
+      <footer
+        class="fixed bottom-0 left-0 w-full bg-gray-200 border-t border-gray-300"
+      >
+        <div class="container mx-auto px-4">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center py-3"
+          >
+            <div class="mb-2 md:mb-0">
+              <ul class="flex space-x-6 text-sm text-gray-600">
+                <li class="hover:underline">
+                  <a
+                    href="https://www.google.com/intl/en_in/ads/"
+                    target="_blank"
+                    >Advertising</a
+                  >
+                </li>
+                <li class="hover:underline">
+                  <a href="https://www.google.com/services/" target="_blank"
+                    >Business</a
+                  >
+                </li>
+                <li class="hover:underline">
+                  <a
+                    href="https://google.com/search/howsearchworks/"
+                    target="_blank"
+                    >How Search works</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex items-center space-x-6">
+              <ul class="flex space-x-6 text-sm text-gray-600">
+                <li class="hover:underline">
+                  <a href="https://policies.google.com/privacy" target="_blank"
+                    >Privacy</a
+                  >
+                </li>
+                <li class="hover:underline">
+                  <a href="https://policies.google.com/terms" target="_blank"
+                    >Terms</a
+                  >
+                </li>
+                <li
+                  class="hover:bg-blue-500 hover:drop-shadow-sm hover:rounded-sm hover:text-sm hover:text-white px-3 ease-out duration-300"
+                >
+                  <a href="https://github.com/MernByAman" target="_blank"
+                    >Who created this clone?</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="sandbox.js"></script>
+  </body>
+</html>
