@@ -21,7 +21,7 @@
 3. Experience the Google magic!  
 
 **🌐 Live Preview**  
-[Check out the live demo](https://aman-googleclone.netlify.app/)  
+[Check out the live demo](https://aman-googleclone.netlify.app)  
 
 **📌 Note**  
 This educational project recreates Google's visual design without backend functionality. All rights belong to Google LLC.
